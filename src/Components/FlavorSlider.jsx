@@ -1,5 +1,5 @@
 import { useGSAP } from "@gsap/react";
-import { flavorlists } from "../constants";
+import { flavorlists } from "../constants/index";
 import gsap from "gsap";
 import { useRef } from "react";
 import { useMediaQuery } from "react-responsive";
