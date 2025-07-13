@@ -15,10 +15,6 @@ const FlavorSlider = () => {
     useGSAP(() => {
         const title = document.querySelector(".general-title");
         const scrollAmount = sliderRef.current.scrollWidth - window.innerWidth + title.offsetWidth;
-
-
-
-
         if (!isTablet) {
             const tl = gsap.timeline({
                 scrollTrigger: {

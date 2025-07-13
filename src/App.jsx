@@ -7,6 +7,7 @@ import Messages from './Sections/Messages'
 import Flavor from './Sections/Flavor'
 import { useGSAP } from '@gsap/react'
 import { useLayoutEffect } from 'react'
+import Nutrition from './Sections/Nutrition'
 
 gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
@@ -28,6 +29,7 @@ const App = () => {
           <Hero />
           <Messages />
           <Flavor />
+          <Nutrition />
           <div id='next' className='h-screen overflow-hidden'>
 
           </div>
