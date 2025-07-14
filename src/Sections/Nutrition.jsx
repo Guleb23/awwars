@@ -27,8 +27,6 @@ const Nutrition = () => {
                 trigger: ".nutrition-section",
                 start: "top top",
                 end: isMobile ? "10% top" : "15% top",
-                scrub: true,
-                markers: true
             }
         });
         tl.from(titleSplit.chars,

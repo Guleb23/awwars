@@ -89,4 +89,33 @@ const cards = [
     },
 ];
 
-export { flavorlists, nutrientLists, cards };
+const titles = [
+    {
+        title: "Shelf stable",
+        color: "#faeade",
+        bg: "#c88e64",
+        className: "first-title",
+        borderColor: "#222123",
+    }, {
+        title: "Protein + Caffeine",
+        color: "#222123",
+        bg: "#faeade",
+        className: "second-title",
+        borderColor: "#222123",
+    }, {
+        title: "Infinitely recyclable",
+        color: "#faeade",
+        bg: "#7F3B2D",
+        className: "third-title",
+        borderColor: "#222123",
+    }, {
+        title: "Lactose free",
+        color: "#2E2D2F",
+        bg: "#FED775",
+        className: "fourth-title",
+        borderColor: "#222123",
+    }
+]
+
+
+export { flavorlists, nutrientLists, cards, titles };
